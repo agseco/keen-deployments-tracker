@@ -1,0 +1,11 @@
+{
+  "name": "keen-deploymentss-tracker",
+  "version": "0.0.1",
+  "description": "Simple deployment tracker using Keen.io",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "nodegit": "^0.20.3"
+  }
+}
