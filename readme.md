@@ -26,6 +26,7 @@ Sample event data:
 ```
 {
   "type": "DEPLOYMENT",
+  "environment:" "PROD",
   "lastCommit": {
     "hash": "hue783hd7dbasjas88e2nbdwhds7hdsbds87w",
     "message": "Flux capacitor re-wiring",
@@ -57,5 +58,5 @@ Sample event data:
 
 ## Parameters/configuration
 Variable parameters to be passed in as arguments or provided as configuration:
-- Keen.io keys (read + write)
+- Keen.io project ID and keys (read + write)
 - Repo location
