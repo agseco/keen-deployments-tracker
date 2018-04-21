@@ -72,6 +72,3 @@ Variable parameters to be passed in as arguments or provided as configuration:
 - Unit/IT tests
   - Add commit that doesn't have previous commits (same commit)
   - Add commit that has previous commits
-- Parameterise
-  - Collection name
-  - Environment
