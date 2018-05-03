@@ -61,11 +61,19 @@ Sample event data:
 }
 ```
 
-## Parameters/configuration
-Variable parameters to be passed in as arguments or provided as configuration:
-- Keen.io project ID and keys (read + write)
-- Repo location
+Sample usage:
 
+```
+DEBUG=* node index.js \
+  --host=test.com \
+  --environment=TEST \
+  --keen-project-id=59fc2d21c9e77c0001098833 \
+  --keen-read-key=XXXX \
+  --keen-write-key=YYYY \
+  --keen-collection-name=deployments \
+  --repository-path=. \
+  --dry-run=true
+```
 
 ## TODOs
 
